@@ -10,7 +10,9 @@ public class MainController {
 
 	@GetMapping("/")
 	public String testMethod() {
-		return "Hello World from local repository";
+
+		return "Hello World i am from remote repository";
+
 	}
 	
 }
